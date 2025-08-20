@@ -1,6 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>epicmines33 github</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>epicmines33's projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #55FFFF;
+      --background: #121212;
+      --card-bg: #1e1e1e;
+      --text: #e0e0e0;
+      --accent: #00AAAA;
+      --title: #5555FF;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      color: black;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .project-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    .project {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
+    .project h3 {
+      margin-bottom: 0.5rem;
+      color: var(--title);
+    }
+    .project p {
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>hello world</h1>
+  <header>
+    <h1>epicmines33's projects</h1>
+    <p>i code for fun, i have many small projects ive done but these are ones that are used often in the public eye</p><br>
+  </header>
+  <main>
+    <section class="projects">
+      <a href="https://chromewebstore.google.com/detail/ogajjnifdkiolcgoahhphdhgeejeahmm" class="project-link" target="_blank">
+        <div class="project">
+          <h3>Epic Contexto</h3>
+          <p>This makes contexto interactive with live streams on tiktok, youtube and kick</p><br>
+          <p style="color: green">Download Avaliable</p>
+        </div>
+      </a>
+      <a href="https://e-z.bio/epicmines33" class="project-link" target="_blank">
+        <div class="project">
+          <h3>Epic Wordle</h3>
+          <p>This makes contexto interactive with live streams on tiktok and prob more platforms to come</p><br>
+          <p style="color: yellow">Limited Use, Dm for details</p>
+        </div>
+      </a>
+      <a href="https://youtu.be/watch?v=StJ6Z9wTCfo" class="project-link" target="_blank">
+        <div class="project">
+          <h3>Blooket Bot</h3>
+          <p>Automatically hosts blooket games to create 24/7 blooket livestreams without human interaction needed</p><br>
+          <p style="color: red">Private Use</p>
+        </div>
+      </a>
+      <a href="https://youtu.be/watch?v=kklR_nYrG3E" class="project-link" target="_blank">
+        <div class="project">
+          <h3>Kahoot Bot</h3>
+          <p>Automatically hosts kahoot games to create 24/7 kahoot livestreams without human interaction needed</p><br>
+          <p style="color: red">Private Use</p>
+        </div>
+      </a>
+    </section>
+  </main>
+  <footer>
+    All private use project links are just for examples and are not all owned by me, if you wish to not be used as an example please contact me via any social media for removal
+  </footer>
+  <br><br>
+  <h1 style="text-align: center; color: #FFAA00">Promoted Projects</h1>
+  <h4 style="text-align: center; color: #FF55FF">these are projects that i personally have used/recommend but not made by me</h2>
+  <main>
+    <section class="projects">
+      <a href="https://chromewebstore.google.com/detail/koonghjejgkkfjbhplbkbbknhnhlogki" class="project-link" target="_blank">
+        <div class="project">
+          <h3>Srn Fued</h3>
+          <p>This makes google feud interactive with live streams on tiktok with youtube support coming soon</p><br>
+          <p style="color: green">Download Avaliable</p>
+        </div>
+      </a>
+    </section>
+  </main>
 </body>
+</html>
